@@ -1,0 +1,26 @@
+# Version-Control
+Version Control Management
+package JunitTesting;
+
+public class MyJunitClass {
+	public int Password(String a)
+	{if(a.length()==6)
+		return 1;
+	else
+		return 0;
+	
+	}
+	public int Login(String b)
+	{try {
+		Integer.parseInt(b);
+		
+	}
+	catch(NumberFormatException ex)
+	{
+		return 0;
+	}
+		
+		return 1;
+	}
+
+}
