@@ -4,8 +4,7 @@ public class MyJunitClass {
 	public int Password(String a)
 	{if(a.length()==6)
 		return 1;
-	else
-		return 0;
+	
 	
 	}
 	public int Login(String b)
@@ -18,7 +17,7 @@ public class MyJunitClass {
 		return 0;
 	}
 		
-		
+		return 1;
 	}
 
 }
