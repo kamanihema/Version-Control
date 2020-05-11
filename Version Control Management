@@ -18,7 +18,7 @@ public class MyJunitClass {
 		return 0;
 	}
 		
-		return 1;
+		
 	}
 
 }
